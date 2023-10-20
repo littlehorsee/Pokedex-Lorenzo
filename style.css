@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:wght@300&display=swap');
+
+.dadosPokemon{
+    position: absolute;
+    left: 61%;
+    top: 40.3%;
+    font-size: 227%;
+    font-weight: 550;
+    color: #fff;
+}
+
+.imgPokemon{
+    position: absolute;
+    width: 15%;
+    left: 21.5%;
+    top: 36%;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 1000px;
+}
+
+main{
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 1vw;
+}
+
+body{
+    text-align: center;
+    background: linear-gradient(to bottom, #fff, #5bb979);
+    min-height: 100vh;
+}
+
+* {
+    font-family: 'Pixelify Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    position: absolute;
+    width: 54%;
+    top: 8.8%;
+    left: 47.6%;
+}
+
+.input{
+    width: 74%;
+    padding: 1vw;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+.botaoProx{
+    position: absolute;
+    bottom: 15.7%;
+    right: 10.5%;
+    width: 14%;
+    color: #fff;
+    background-color: #ffffff00;
+    border: 0px;
+    font-size: 140%;
+}
+
+.botaoAnt{
+    position: absolute;
+    bottom: 15.7%;
+    right: 26.5%;
+    width: 14%;
+    color: #fff;
+    background-color: #ffffff00;
+    border: 0px;
+    font-size: 140%;
+}
+
+.botaoProx:active{
+    font-size: 120%;
+}
+
+.botaoAnt:active{
+    font-size: 120%;
+}
+
+.logo{
+    width: 10vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    text-align: center;
+    margin-right: 12%;
+}
+
+.textoCabeca{
+    position: absolute;
+    text-align: center;
+    font-size: 4vw;
+    color: #000;
+    margin-left: 12%;
+}
+
+.cabecalho{
+    display: flex;
+    background-color: #5bb979;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
